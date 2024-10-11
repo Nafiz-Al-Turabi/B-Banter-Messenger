@@ -6,10 +6,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { router } from './Routes/Route.jsx';
-import ChatInterface from './Pages/ChatInterface/ChatInterface.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ChatInterface />
+     <RouterProvider router={router} />
   </StrictMode>,
 )

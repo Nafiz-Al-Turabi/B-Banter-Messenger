@@ -1,0 +1,25 @@
+/* AuthPage.css */
+.form-container {
+    position: relative;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.form-container.enter {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.form-container.enter-active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.form-container.exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.form-container.exit-active {
+    opacity: 0;
+    transform: translateY(20px);
+}
